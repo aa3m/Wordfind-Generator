@@ -86,8 +86,8 @@ namespace Wordfind_Generator
                     printerString += "\r\n\r\n";
                 }
 
-                printerString += item + "\t";
-                columnCount++;
+                printerString += item + "\t\t"; // additional \t separates any long words
+                columnCount++;                  //that may confuse the user looking at the "items".
             }
 
             return printerString;
