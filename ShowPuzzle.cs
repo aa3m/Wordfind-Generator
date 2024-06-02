@@ -86,7 +86,7 @@ namespace Wordfind_Generator
                     printerString += "\r\n\r\n";
                 }
 
-                printerString += item + "\t";
+                printerString += item + "\t\t"; //added additional "TAB" to spread out printed items
                 columnCount++;
             }
 
