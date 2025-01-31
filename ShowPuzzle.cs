@@ -45,7 +45,6 @@ namespace Wordfind_Generator
         private void printbothButton_Click(object sender, EventArgs e)
         {
             printBoth();
-            //print();
         }
 
 
@@ -86,7 +85,7 @@ namespace Wordfind_Generator
                     printerString += "\r\n\r\n";
                 }
 
-                printerString += item + "\t\t"; //added additional "TAB" to spread out printed items
+                printerString += item + "\t\t"; //added additional "TAB" to spread out printed items  5/6/24 de AA3M
                 columnCount++;
             }
 

@@ -19,4 +19,4 @@ Just a simple tool to create wordfind puzzles.
 - added ToggleButton prompt changes when toggled between answers and puzzle.
 - added "print puzzle and answers" button which after printing, closes the window, and user must 
 - click Generate Puzzle which will generate a new puzzle and new serial number. 5/6/2024 de AA3M
-- added additional "TAB" to spread out printed puzzle items on sheets in ShowPuzzle.cs
+- added additional "TAB" to spread out printed puzzle items on sheets in ShowPuzzle.cs 5/6/24 de AA3M
