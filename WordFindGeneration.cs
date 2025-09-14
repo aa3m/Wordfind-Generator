@@ -47,7 +47,8 @@ namespace Wordfind_Generator
 
         public bool GenerationFailed()
         {
-            return _generationFailed;
+            return _generationFailed
+                ;
         }
         
         //New list needs to be sorted
